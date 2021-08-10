@@ -1,0 +1,31 @@
+body {  
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    text-align: center;
+    transition: 1200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    width: 640px;
+    height: 640px;
+    border: 2px solid rgba(255, 0, 0, 0.568);
+
+}
+
+.inner-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    transition: 1500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
